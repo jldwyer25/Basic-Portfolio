@@ -125,7 +125,7 @@
     #text1{
         position: absolute;
         z-index: 2;
-        margin-top: 400px;
+        /* margin-top: 400px; */
         background-color: #4AAAA5;
     }
     #pic1 {
@@ -170,11 +170,12 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         text-align-last: center;
         padding: 2%;
-        width: 24.1%;
+        width: 28%;
         height: 2%;
         z-index: 2;
-        top: 22.2%;
+        top: 30.2%;
         left: 3%;
+        line-height: 10%;
     }
     
     #soccertext {
@@ -185,11 +186,12 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         text-align-last: center;
         padding: 2%;
-        width: 24.1%;
+        width: 28%;
         height: 2%;
         z-index: 2;
-        top: 22.2%;
+        top: 30.2%;
         left: 35.5%;
+        line-height: 10%;
     }
     
     #tattootext {
@@ -200,11 +202,12 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         text-align-last: center;
         padding: 2%;
-        width: 24.1%;
+        width: 28%;
         height: 2%;
         z-index: 2;
-        top: 48.8%;
+        top: 56%;
         left: 3%;
+        line-height: 10%;
     }
     
     #musictext {
@@ -215,11 +218,12 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         text-align-last: center;
         padding: 2%;
-        width: 24.1%;
+        width: 28.1%;
         height: 2%;
         z-index: 2;
-        top: 48.8%;
+        top: 56%;
         left: 35.5%;
+        line-height: 10%;
     }
     
     #movietext {
@@ -230,10 +234,10 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         text-align-last: center;
         padding: 2%;
-        width: 26.1%;
+        width: 28.1%;
         height: 2%;
         z-index: 2;
-        top: 75.4%;
+        top: 83.4%;
         left: 3%;
         margin-top: 15px;
     }
