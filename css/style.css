@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a:hover, a:active{
+    background-color: #4aaaa5;
+}
+
+    .header {
+        border-bottom: 1px solid gray;
+        padding: 0, 20px;
+        background-color:white;
+        overflow: auto;    
+  }
+
+    #myname{
+        padding: 30px;
+        background-color: #4AAAA5;
+        float: left;
+        color: white;
+        font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }  
+
+    .AboutMe{
+        color: #4AAAA5;
+        float: left;
+        font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    #biopic{
+        float: left;
+        margin-right: 5px;
+    }
+
+  body{
+      background-image: url(../images/gravel.png);
+      padding: 0px;
+      margin: 0px;
+      overflow: auto;
+  }
+
+  .inner{
+      width: 960px;
+      margin: 0 auto;
+      overflow: auto;
+  }
+
+  .content{
+      background-color: white;
+      border: 1px solid grey;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  hr{
+      margin: 10px 0;
+  }
+
+  #links{
+      float: right;
+  }
+  
+  a{
+      text-decoration: none;
+      color: #777777;
+  }
+
+  #links li{
+    display: inline-block;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .contact-form .text-input, .contact-form label, .contact-form textarea{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+  }
+
+  .contact-form textarea{
+        height: 350px;
+  }
+
+
+  .footer{
+      padding: 20px;
+      border-top: 5px solid;
+      border-color: #4AAAA5;
+      text-align: center;
+      background-color: #666666;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: grey;
+  }
+
+  .imagesection{
+      position: relative;
+  }
+
+    #img1{
+        position:absolute;
+        z-index: 1;
+        object-fit: contain;
+        size: 10px, 20px;
+    }
+
+    #portfoliobox {
+        position: relative;
+        height: 935px;
+        width: 960px;
+        z-index: 0;
+    }
+
+    #text1{
+        position: absolute;
+        z-index: 2;
+        margin-top: 400px;
+        background-color: #4AAAA5;
+    }
+    #pic1 {
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        z-index: 1;
+        padding-bottom: 40px;
+    }
+    
+    #pic2 {
+        position: absolute;
+        top: 10%;
+        left: 35.5%;
+        padding-bottom: 40px;
+    }
+    
+    #pic3 {
+        position: absolute;
+        top: 36.5%;
+        left: 3%;
+        padding-bottom: 40px;
+    }
+    
+    #pic4 {
+        position: absolute;
+        top: 36.5%;
+        left: 35.5%;
+        padding-bottom: 40px;
+    }
+    
+    #pic5 {
+        position: absolute;
+        top: 63%;
+        left: 3%;
+    }
+    #gametext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align-last: center;
+        padding: 2%;
+        width: 24.1%;
+        height: 2%;
+        z-index: 2;
+        top: 22.2%;
+        left: 3%;
+    }
+    
+    #soccertext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align-last: center;
+        padding: 2%;
+        width: 24.1%;
+        height: 2%;
+        z-index: 2;
+        top: 22.2%;
+        left: 35.5%;
+    }
+    
+    #tattootext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align-last: center;
+        padding: 2%;
+        width: 24.1%;
+        height: 2%;
+        z-index: 2;
+        top: 48.8%;
+        left: 3%;
+    }
+    
+    #musictext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align-last: center;
+        padding: 2%;
+        width: 24.1%;
+        height: 2%;
+        z-index: 2;
+        top: 48.8%;
+        left: 35.5%;
+    }
+    
+    #movietext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align-last: center;
+        padding: 2%;
+        width: 26.1%;
+        height: 2%;
+        z-index: 2;
+        top: 75.4%;
+        left: 3%;
+        margin-top: 15px;
+    }
