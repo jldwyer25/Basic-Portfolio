@@ -170,6 +170,12 @@
         top: 63%;
         left: 3%;
     }
+
+    #pic6 {
+        position: absolute;
+        top: 63%;
+        left: 35.5%;
+    }
     #gametext {
         position: absolute;
         background-color: #4aaaa5;
@@ -248,4 +254,22 @@
         top: 83.4%;
         left: 3%;
         margin-top: 15px;
+        line-height: 10%;
+    }
+
+    #crystaltext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align-last: center;
+        margin-bottom: 20px;
+        padding: 2%;
+        width: 28.1%;
+        height: 2%;
+        z-index: 2;
+        top: 83.4%;
+        left: 35.5%;
+        line-height: 10%;
     }
